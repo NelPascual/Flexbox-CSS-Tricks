@@ -1,4 +1,4 @@
-# Guía completa de Flexbox
+# Traducción de la Guía completa de Flexbox de CSS-Tricks
 
 **Por Chris Coyier**
 
