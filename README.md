@@ -50,7 +50,7 @@ Dado que Flexbox es un módulo completo y no una sola propiedad, implica un mont
 
 Si la maquetación "normal" se basa tanto en direcciones de flujo en bloque como en línea, el flex layout se basa en "flex-flow directions". Eche un vistazo a esta figura de la especificación, en la que se explica la idea principal de la distribución flexible.
 
-![Gráfico flujo de Flexbox](../Flexbox%20CSS%20Tricks/img/flexbox-basic-terminology.svg "flex-flow directions")
+![Gráfico flujo de Flexbox](/img/flexbox-basic-terminology.svg "flex-flow directions")
 
 Los elementos se dispondrán siguiendo el eje principal o ``main axis`` (de ``main-start`` a ``main-end``) o el eje transversal o ``cross axis`` (de ``cross-start`` a ``cross-end``).
 
@@ -67,7 +67,7 @@ Los elementos se dispondrán siguiendo el eje principal o ``main axis`` (de ``ma
 
 ## Propiedades de Flexbox
 
-![Propiedades del padre](../Flexbox%20CSS%20Tricks/img/flex-container.svg "Flex container")
+![Propiedades del padre](/img/flex-container.svg "Flex container")
 
 ## Propiedades del padre
 
@@ -85,7 +85,7 @@ Tenga en cuenta que las columnas CSS no tienen ningún efecto en un contenedor f
 
 ### ``flex-direction``
 
-![Flex direction](../Flexbox%20CSS%20Tricks/img/flex-direction.svg "flex-direction")
+![Flex direction](/img/flex-direction.svg "flex-direction")
 
 Esto establece el ``main-axis``, definiendo así la dirección en la que se colocan los ``flex items`` en el ``flex container``. Flexbox es (aparte del envoltorio opcional) un concepto de diseño unidireccional. Piensa que los ``flex items`` se colocan principalmente en filas horizontales o columnas verticales.
 
@@ -101,7 +101,7 @@ Esto establece el ``main-axis``, definiendo así la dirección en la que se colo
 
 ### ``flex-wrap``
 
-![Flex-wrap](../Flexbox%20CSS%20Tricks/img/flex-wrap.svg "flex-wrap")
+![Flex-wrap](/img/flex-wrap.svg "flex-wrap")
 
 Por defecto, todos los elementos flex intentarán caber en una línea. Puede cambiar esto y permitir que los items se ajusten según sea necesario con esta propiedad.
 
