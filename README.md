@@ -22,6 +22,9 @@ Nuestra guía completa sobre el diseño con CSS Flexbox. Esta guía completa exp
     * [align-items](#align-items)
     * [align-content](#align-content)
     * [gap, row-gap, column-gap](#gap-row-gap-column-gap)
+* [Propiedades para los hijos (flex items)](#propiedades-para-los-hijos)
+
+    * [order](#order)
 
 Parte 4: Prefijos Flexbox
 
@@ -177,7 +180,7 @@ Define el comportamiento por defecto para la disposición de los flex-items a lo
 
 Las palabras clave modificadoras ``safe`` e ``unsafe`` pueden utilizarse junto con el resto de estas palabras clave (aunque tenga en cuenta la compatibilidad con navegadores), y se ocupan de ayudarle a evitar alinear elementos de forma que el contenido se vuelva inaccesible.
 
-### align-content
+### ``align-content``
 
 ![align-content](img/align-content.svg "align-content")
 
@@ -222,3 +225,19 @@ La propiedad ``gap`` controla explícitamente el espacio entre los ``flex-items`
 El comportamiento podría ser pensado como un canal mínimo, ya que si el canal es más grande de alguna manera (debido a algo como ``justify-content: space-between;``) entonces la brecha sólo tendrá efecto si ese espacio acabara siendo más pequeño.
 
 No es exclusivo para Flexbox, ``gap`` funciona también en Grid y layout multicolumna.
+
+## Propiedades para los hijos
+
+### ``order``
+
+![order](img/order.svg "order")
+
+Por defecto, los flex items se disponen en el orden de origen. Sin embargo, la propiedad ``order`` controla el orden en que aparecen en el flex container.
+
+```css
+.item {
+    order: 5; /* default is 0 */
+}
+```
+
+Los items con el mismo ``order`` vuelven al orden de origen.
